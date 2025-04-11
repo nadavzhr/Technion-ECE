@@ -1,0 +1,29 @@
+1: New account id is 111 with password 1234 and initial balance 50
+1: New account id is 222 with password 0568 and initial balance 20
+1: New account id is 333 with password 2345 and initial balance 0
+Bank: commissions of 2 % were charged, the bank gained 1 $ from account 111
+Bank: commissions of 2 % were charged, the bank gained 0 $ from account 222
+Bank: commissions of 2 % were charged, the bank gained 0 $ from account 333
+1: Account 111 balance is 49
+1: Account 333 new balance is 1500 after 1500 $ was deposited
+1: Account 111 new balance is 149 after 100 $ was deposited
+Bank: commissions of 4 % were charged, the bank gained 5 $ from account 111
+Bank: commissions of 4 % were charged, the bank gained 0 $ from account 222
+Bank: commissions of 4 % were charged, the bank gained 60 $ from account 333
+1: Account 222 new balance is 1073 after 1053 $ was deposited
+Error 1: Your transaction failed - account id 333 balance is lower than 2500
+Bank: commissions of 2 % were charged, the bank gained 2 $ from account 111
+Bank: commissions of 2 % were charged, the bank gained 21 $ from account 222
+Bank: commissions of 2 % were charged, the bank gained 28 $ from account 333
+1: Account 222 new balance is 952 after 100 $ was withdrew
+Error 1: Your transaction failed - password for account id 222 is incorrect
+Error 1: Your transaction failed - account id 111 balance is lower than 2000
+Bank: commissions of 4 % were charged, the bank gained 5 $ from account 111
+Bank: commissions of 4 % were charged, the bank gained 38 $ from account 222
+Bank: commissions of 4 % were charged, the bank gained 56 $ from account 333
+1: Account 111 balance is 137
+1: Account 222 balance is 914
+1: Account 111 is now closed. Balance was 137
+Bank: commissions of 2 % were charged, the bank gained 18 $ from account 222
+Bank: commissions of 2 % were charged, the bank gained 27 $ from account 333
+1: Account 333 is now closed. Balance was 1329

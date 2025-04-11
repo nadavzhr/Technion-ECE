@@ -1,0 +1,23 @@
+A.
+Attempting to conduct this research manually would likely result in a significantly increased amount of time required. 
+Based on my estimation, searching for each article using "ctrl f" would take approximately 1 minute per article. 
+When multiplied by 60, this equates to around one hour.
+
+
+B.
+After practicing with it, my conclusion is that bash is an extremely powerful tool that can assist us in writing complex algorithms with minimal code.
+Another idea for where we can use a bash script like this one is for email managment - finding certain emails of certain topics or from a given point
+in time (instead of looking in a pile of hundreds of messages), or even deleting spam emails by a filter using a special keyword.
+
+
+C.
+In order to repeat the process every hour, we can modify the code so that it avoids duplicates (articles that have already been processed),
+and then setup a cron job to schedule the script to run on an hourly basis.
+One option to avoid duplicates is:
+
+At the start of the script we get all the articles on the front page and then compare them to the URLs already present in results.csv
+(searching for specfic URLs in the first column of the results.csv file) - can be done by using the grep and cut commands for example.
+Rest of the code basically stays the same, and then to set up a cron job we can use the cron tool (time-based job sceduler) by adding our program to the crontab
+schedule using the crontab -e command.
+
+

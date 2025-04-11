@@ -1,0 +1,5 @@
+- Stopped proccesses keep running after sending them SIGSTOP (-19), and they disappear from the job list.
+- Ctrl-c signal generates a "waitpid failed: Interrupted system call".
+- Ctrl-z signal doesnt stop the proccess, or keeps running in the foreground.
+- Double ctrl-z's exit the smash.
+- Doing "quit kill" while there are proccesses that are STOPPED, generates a "(5 sec passed) Sending SIGKILL... Done" message and exits the smash.
