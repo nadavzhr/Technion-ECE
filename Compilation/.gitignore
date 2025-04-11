@@ -1,0 +1,9 @@
+# Ignore all irrelevant files
+*.o
+*.out
+*.exe
+*.cmm
+*.rsk
+*.e
+*.in
+*.out
